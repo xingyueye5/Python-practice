@@ -1,0 +1,70 @@
+import numpy as np
+
+# 定义sigmoid函数
+def sigmoid(x, deriv=False):
+    if (deriv == True):
+        return x * (1 - x)
+    else:
+        return 1 / (1 + np.exp(-x))
+
+
+# input dataset
+X = np.array([[0, 0, 1],
+              [0, 1, 1],
+              [1, 0, 1],
+              [1, 1, 1]])
+
+# output dataset
+y = np.array([[0, 1, 1, 0]]).T
+
+# 初始化权重
+weight01 = 2 * np.random.random((3, 4)) - 1
+weight12 = 2 * np.random.random((4, 2)) - 1
+weight23 = 2 * np.random.random((2, 1)) - 1
+
+# 初始化偏倚
+b1 = 2 * np.random.random((1, 4)) - 1
+b2 = 2 * np.random.random((1, 2)) - 1
+b3 = 2 * np.random.random((1, 1)) - 1
+bias1 = np.array([b1[0], b1[0], b1[0], b1[0]])
+bias2 = np.array([b2[0], b2[0], b2[0], b2[0]])
+bias3 = np.array([b3[0], b3[0], b3[0], b3[0]])
+
+# 开始训练
+for j in range(60000):
+    I0 = X
+    O0 = I0
+    I1 = np.dot(O0, weight01) + bias1
+    O1 = sigmoid(I1)
+    I2 = np.dot(O1, weight12) + bias2
+    O2 = sigmoid(I2)
+    I3 = np.dot(O2, weight23) + bias3
+    O3 = sigmoid(I3)
+
+    f3_error = y - O3
+
+    if (j % 10000) == 0:
+        print("Error:" + str(np.mean(f3_error)))
+##一层层反向传播，可以理解成一棵树，fi_delta可以继续传播下去，每一层wij参数会被保留，转交给下一层（本质是递推），然后每一层会带有fi_delta以及本层的特征。
+## 本层特征是不能传播下去的（比如说后面的O2.T.dot(f3_delta),前面O2就是本层独有的特征）
+    f3_delta = f3_error * sigmoid(O3, deriv=True)
+
+    f2_error = f3_delta.dot(weight23.T)  ##带上参数才能继续传播下去
+
+    f2_delta = f2_error * sigmoid(O2, deriv=True)
+
+    f1_error = f2_delta.dot(weight12.T)
+
+    f1_delta = f1_error * sigmoid(O1, deriv=True)
+
+    weight23 += O2.T.dot(f3_delta)  # 调整权重
+    weight12 += O1.T.dot(f2_delta)
+    weight01 += O0.T.dot(f1_delta)
+
+    bias3 += f3_delta  # 调整偏倚
+    bias2 += f2_delta
+    bias1 += f1_delta
+
+print("outout after Training:")
+print(O3)
+

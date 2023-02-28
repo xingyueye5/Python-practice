@@ -1,2 +1,6 @@
 # Python-practice
-Here are the labs on the python book
+Here are several labs on the python book
+
+- game if life
+- board game
+
