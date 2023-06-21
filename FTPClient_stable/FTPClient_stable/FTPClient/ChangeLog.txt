@@ -1,0 +1,16 @@
+2022-11-19
+	修改了FTP.controlTube.response()函数，使服务器返回信息能输出到UI控制台。
+	添加了UI_Connect(连接窗体)，并将其设为启动窗体。
+	取消了UI_Client.Ui_MainWindow_Client.action_logout(系统菜单栏注销按钮)，因为没有对应的FTP命令。
+	为UI_Client.Ui_MainWindow_Client.menu_system(系统菜单栏)各个按钮绑定了相应的动作，实现各窗体之间的跳转。
+	使UI_Client.Ui_MainWindow_Client.lineEdit_cmd(命令行)能向控制台输入信息，但还没有实现具体的响应操作。
+	为所有已使用的lineEdit控件绑定了回车事件，使得按下回车时能自动完成输入。
+	为连接和登录界面的lineEdit控件添加了默认值，方便调试时快速登录。(在不同电脑上需要重设)
+2022-11-21
+    添加了UI_Error_Connection和UI_Error_Login，并为连接和登录界面做了异常抛出。
+    发现了FTP.controlTube.response()函数存在的问题，详情参见WidgetLogin.onloginclicked()函数的注释。
+    为大部分FTP.controlTube的成员函数添加了返回值，使外界能获取服务器返回的简单信息。
+    重构了所有UI类，将控件的加载移动到相应窗体的初始化函数中，将控件的响应重定位为相应窗体的成员函数。
+    优化了跳过登录的debug代码，直接显示的主窗体现在同样具有交互逻辑
+2022-11-22
+    整合了response的修复代码，UI除文件操作外全部完成。

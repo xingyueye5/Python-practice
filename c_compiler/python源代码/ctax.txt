@@ -1,0 +1,23 @@
+S->void main(){A}
+A->C
+C->DC|ε
+D->X;|B|U|V;
+
+X->YZ
+Y->int|char|bool|double
+Z->Z,V|V
+V->id=L|id
+
+L->L+L|L-L|T
+T->T*T|T/T|F
+F->(L)|id|num
+
+E->E&&E|H
+H->H||H|G
+G->FJF|(E)|!E
+J-><|>|==|!=
+
+U->if(E){A} else{A}|while(E){A}|for(YZ;G;V){A}
+
+B->printf(P);|scanf(id);
+P->id|num
