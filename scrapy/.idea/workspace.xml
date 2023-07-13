@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc79ecab-7a38-4437-ad54-aec090b2eba7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/3389爆破字典.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/NT密码.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/passwd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/top100password.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/webshellPassword.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/字典.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/常用密码.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/常用用户名.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/渗透字典.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/突破密码.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/cipher/自己收集的密码.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/baopo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/jiahouzhui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/后台路径.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/数据库地址.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/asp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/aspx.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/big_dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/dic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/fck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/jsp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/mdb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/php.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (2)/ASP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (2)/ASPX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (2)/DIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (2)/JSP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (2)/MDB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (2)/PHP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (2)/fck网站漏洞字典.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (3)/ASP.txT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (3)/ASPX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (3)/DIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (3)/JSP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (3)/MDB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (3)/PHP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/新建文件夹 (3)/cms专用字典.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/DZ(discuz) x2.5 爆路径漏洞 0day.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/Discuz7.X通杀0day漏洞(UCenter Home-2.0).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/ECshop 支付中心SQL注射0day.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/Kesion cms注入漏洞.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/WordPress.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/Z-blog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/blueCMS v1.6 sp1 ad_js.php SQL注入漏洞.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/dedev511SQLi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/dedev513GBKSQLi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/dedev562urlforward.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/dedev563SQLi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/dedev568SQli.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/ecshop 注入通杀2.6-2.7 GBK版本.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/ecshop爆绝对路径的bug 0day.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/phpweb伪静态页面注入.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/phpwind某注入.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/wordpress 3.1.3 注入漏洞.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/动科(dkcms).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/南方数据.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/帝国CMS5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/数据库路径.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/新云管理系统6.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/新建 文本文档.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/易迅.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/织梦.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/逐浪CMS3.2 0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/漏洞/风讯.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/目录/ASPX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/目录/DIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/目录/JSP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/目录/MDB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/目录/PHP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/目录/asp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/目录/cms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/目录/备份.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/dontknow/目录/目录/高危.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/mail/mail.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/name/asteroids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/name/bacteria.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/name/bible.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/name/common.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/name/liunx_users_dictionaries.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/name/renkoutop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/name/top10W.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/name/top500姓名组合.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/name/usernames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cipherbook/special.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Ml6fCKu3JDByrXXSF8JRc9MDRB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SE-Programmes/orange3" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="itcast" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newspider/newspider/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newspider/newspider/spiders/itcast.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc79ecab-7a38-4437-ad54-aec090b2eba7" name="Changes" comment="" />
+      <created>1678329922972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678329922972</updated>
+    </task>
+    <servers />
+  </component>
+</project>
